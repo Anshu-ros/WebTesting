@@ -1,11 +1,12 @@
-int sf1(int a,int b,int c)
+
+float sf1(float a,float b,float c)
 {
-  int root1=((-b)+sqrt(b*b-(4*a*c)))/(2*a);
+  float root1=((-b)+sqrt(b*b-(4*a*c)))/(2*a);
   return root1;
 }
 
-int sf2(int a,int b,intc)
+float sf2(float a,float b,float c)
 {
-  int root2=((-b)-sqrt(b*b-(4*a*c)))/(2*a);
+  float root2=((-b)-sqrt(b*b-(4*a*c)))/(2*a);
   return root2;
 }
