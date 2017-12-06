@@ -1,11 +1,11 @@
-int ins1(int b,int k)
+float ins1(float b,float k)
 {
-  int pr1=(-b)+sqrt(k);
+  float pr1=(-b)+sqrt(k);
   return pr1;
 }
 
-int ins2(int b, int k)
+float ins2(float b, float k)
 {
-  int pr2=(-b)-sqrt(k);
+  float pr2=(-b)-sqrt(k);
   return pr2;
 }
