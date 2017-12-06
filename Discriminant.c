@@ -1,6 +1,6 @@
-int D1(int a,int b,int c)
+float D1(float a,float b,float c)
 {
-  int x;
+  float x;
   x=(b*b)-(4*a*c);
   return x;
 }
