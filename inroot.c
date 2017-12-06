@@ -1,6 +1,6 @@
-int sol1(int a,int k)
+float sol1(float a,float k)
 {
-  int root1=k/(2*a);
+  float root1=k/(2*a);
   return root1;
 }
 
