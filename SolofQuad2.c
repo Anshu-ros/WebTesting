@@ -6,10 +6,10 @@
 
 int main ()
 {
-  int a,b,c;
+  float a,b,c;
   printf("enter the coefficients of quadratic equation.");
   scanf("%d%d%d",&a,&b,&c);
-  int D,pr1,pr2,rt1,rt2;
+  float D,pr1,pr2,rt1,rt2;
   D=D1(a,b,c);
   pr1=ins1(b,D);
   pr2=ins2(b,D);
